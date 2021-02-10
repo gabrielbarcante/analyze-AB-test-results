@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Analyze_ab_test_results_notebook</title><script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=JSDCfRjvMH60D_pI-8Kyl2BGeV2HSXZWpsNSbPB3YiQw9hx1uArFhQCaLIhpkHDLVk_gVUO4bJhLrGWgBPtIM-YcYLTXUeQcmYODagtDdGr8Go-QsI3Im0p3ukrtujJ6v7AE9v5zlGiaphH0Po1EpQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL2xvY2FsaG9zdDo4ODg4L25iY29udmVydC9odG1sL0FuYWx5emVfYWJfdGVzdF9yZXN1bHRzX25vdGVib29rLmlweW5iP2Rvd25sb2FkPXRydWU"/><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Analyze_ab_test_results_notebook</title><script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nggHp7R21y9Gd_qybWk0yxIu1UNWxn7p9W1Vc4gR6gfx7WFWESBft1crdEqT5XA2YHkkB0n1LMnsWmdZu5rFGa5uCmMT454NIs2i0DdG5QfAPwOdL16RYUkObMqR7olo6DlnTlbO_CA3UbnnlLfrtw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL2xvY2FsaG9zdDo4ODg4L25iY29udmVydC9odG1sL0FuYWx5emVfYWJfdGVzdF9yZXN1bHRzX25vdGVib29rLmlweW5iP2Rvd25sb2FkPXRydWU"/><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14259,8 +14259,7 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Analyze-A/B-Test-Results">Analyze A/B Test Results<a class="anchor-link" href="#Analyze-A/B-Test-Results">&#182;</a></h2><p>This project will assure you have mastered the subjects covered in the statistics lessons.  The hope is to have this project be as comprehensive of these topics as possible.  Good luck!</p>
-<h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ul>
+<h2 id="Analyze-A/B-Test-Results">Analyze A/B Test Results<a class="anchor-link" href="#Analyze-A/B-Test-Results">&#182;</a></h2><h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ul>
 <li><a href="#intro">Introduction</a></li>
 <li><a href="#probability">Part I - Probability</a></li>
 <li><a href="#ab_test">Part II - A/B Test</a></li>
@@ -14271,7 +14270,6 @@ a.anchor-link {
 <p><a id='intro'></a></p>
 <h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h3><p>A/B tests are very commonly performed by data analysts and data scientists.  It is important that you get some practice working with the difficulties of these</p>
 <p>For this project, you will be working to understand the results of an A/B test run by an e-commerce website.  Your goal is to work through this notebook to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision.</p>
-<p><strong>As you work through this notebook, follow along in the classroom and answer the corresponding quiz questions associated with each question.</strong> The labels for each classroom concept are provided for each question.  This will assure you are on the right track as you work through the project, and you can feel more confident in your final submission meeting the criteria.  As a final check, assure you meet all the criteria on the <a href="https://review.udacity.com/#!/projects/37e27304-ad47-4eb0-a1ab-8c12f60e43d0/rubric">RUBRIC</a>.</p>
 <p><a id='probability'></a></p>
 <h4 id="Part-I---Probability">Part I - Probability<a class="anchor-link" href="#Part-I---Probability">&#182;</a></h4><p>To get started, let's import our libraries.</p>
 
@@ -14299,7 +14297,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><code>1.</code> Now, read in the <code>ab_data.csv</code> data. Store it in <code>df</code>.  <strong>Use your dataframe to answer the questions in Quiz 1 of the classroom.</strong></p>
+<p><code>1.</code> Now, read in the <code>ab_data.csv</code> data. Store it in <code>df</code>.</p>
 <p>a. Read in the dataset and take a look at the top few rows here:</p>
 
 </div>
@@ -14632,8 +14630,8 @@ dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><code>2.</code> For the rows where <strong>treatment</strong> is not aligned with <strong>new_page</strong> or <strong>control</strong> is not aligned with <strong>old_page</strong>, we cannot be sure if this row truly received the new or old page.  Use <strong>Quiz 2</strong> in the classroom to provide how we should handle these rows.</p>
-<p>a. Now use the answer to the quiz to create a new dataset that meets the specifications from the quiz.  Store your new dataframe in <strong>df2</strong>.</p>
+<p><code>2.</code> For the rows where <strong>treatment</strong> is not aligned with <strong>new_page</strong> or <strong>control</strong> is not aligned with <strong>old_page</strong>, we cannot be sure if this row truly received the new or old page.</p>
+<p>a. Now, remove the rows that not meet the specifications above to create a new dataframe. Store your new dataframe in <strong>df2</strong>.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -14692,7 +14690,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><code>3.</code> Use <strong>df2</strong> and the cells below to answer questions for <strong>Quiz3</strong> in the classroom.</p>
+<p><code>3.</code> Use <strong>df2</strong> and the cells below to answer some questions.</p>
 
 </div>
 </div>
@@ -14942,7 +14940,7 @@ Name: user_id, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><code>4.</code> Use <strong>df2</strong> in the below cells to answer the quiz questions related to <strong>Quiz 4</strong> in the classroom.</p>
+<p><code>4.</code> Use <strong>df2</strong> in the below cells to answer some more questions.</p>
 <p>a. What is the probability of an individual converting regardless of the page they receive?</p>
 
 </div>
@@ -15146,7 +15144,7 @@ $$ H_0: p_{new} - p_{old} \le 0 $$$$ H_1: p_{new} - p_{old} \gt 0 $$
 <p><code>2.</code> Assume under the null hypothesis, $p_{new}$ and $p_{old}$ both have "true" success rates equal to the <strong>converted</strong> success rate regardless of page - that is $p_{new}$ and $p_{old}$ are equal. Furthermore, assume they are equal to the <strong>converted</strong> rate in <strong>ab_data.csv</strong> regardless of the page. <br><br></p>
 <p>Use a sample size for each page equal to the ones in <strong>ab_data.csv</strong>.  <br><br></p>
 <p>Perform the sampling distribution for the difference in <strong>converted</strong> between the two pages over 10,000 iterations of calculating an estimate from the null.  <br><br></p>
-<p>Use the cells below to provide the necessary parts of this simulation.  If this doesn't make complete sense right now, don't worry - you are going to work through the problems below to complete this problem.  You can use <strong>Quiz 5</strong> in the classroom to make sure you are on the right track.<br><br></p>
+<p>Use the cells below to provide the necessary parts of this simulation.<br><br></p>
 
 </div>
 </div>
@@ -16112,7 +16110,7 @@ dtype: float64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>e. What is the p-value associated with <strong>ab_page</strong>? Why does it differ from the value you found in <strong>Part II</strong>?<br><br>  <strong>Hint</strong>: What are the null and alternative hypotheses associated with your regression model, and how do they compare to the null and alternative hypotheses in the <strong>Part II</strong>?</p>
+<p>e. What is the p-value associated with <strong>ab_page</strong>? Why does it differ from the value you found in <strong>Part II</strong>?<br><br></p>
 
 </div>
 </div>
@@ -16140,7 +16138,7 @@ $$ H_0: \beta_1 = 0 $$$$ H_1: \beta_1 \ne 0 $$<p></p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>g. Now along with testing if the conversion rate changes for different pages, also add an effect based on which country a user lives. You will need to read in the <strong>countries.csv</strong> dataset and merge together your datasets on the approporiate rows.  <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html">Here</a> are the docs for joining tables.</p>
-<p>Does it appear that country had an impact on conversion?  Don't forget to create dummy variables for these country columns - <strong>Hint: You will need two columns for the three dummy variables.</strong> Provide the statistical output as well as a written response to answer this question.</p>
+<p>Does it appear that country had an impact on conversion?  Don't forget to create dummy variables for these country columns. Provide the statistical output as well as a written response to answer this question.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
